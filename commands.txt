@@ -1,0 +1,5 @@
+.venv\Scripts\activate
+
+in backend     uvicorn main:app --reload
+
+in frontend    streamlit run app.py
